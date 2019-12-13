@@ -1,5 +1,5 @@
 class OwnersController < ApplicationController
-
+require 'pry'
 
   get '/owners' do
     @owners = Owner.all
